@@ -34,7 +34,7 @@ main.Active = true
 
 main.Draggable = true
 
-Equip.Name = "Be Rewarded"
+Equip.Name = "Wish"
 
 Equip.Parent = main
 
@@ -134,7 +134,7 @@ task.wait()
 
 end
 
-rs.RemoteEvents.ShenronRemote:FireServer("Be Rich")
+rs.RemoteEvents.ShenronRemote:FireServer("Be Rewarded")
 
 -- Gửi lại vào ItemStorage
 
@@ -179,4 +179,3 @@ Equip.MouseButton1Click:Connect(function()
 useDragonballs()
 
 end)
-
